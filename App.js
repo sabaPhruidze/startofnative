@@ -8,6 +8,9 @@ export default function App() {
         <Text style={styles.boldText}>Hello world</Text>
       </View>
       <View style={styles.yellowBox}>
+        <Text style={styles.boldText}>
+          Lorem <Text>ipsum</Text>
+        </Text>
         <Text>Lorem ipsum</Text>
         <Text>Lorem ipsum</Text>
       </View>
